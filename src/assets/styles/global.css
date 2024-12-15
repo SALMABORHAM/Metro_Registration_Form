@@ -1,0 +1,174 @@
+/* Define NeoSansArabic font */
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/neo-sans-arabic-regular.ttf') format('truetype');
+    font-weight: 400;
+ 
+    font-style: normal;
+    font-display: swap;
+}
+ 
+ @font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/neo-sans-arabic-regular[95].ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabic-Light[100].ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabic-Medium[14].ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicBold.ttf') format('truetype');
+    font-weight: 700;
+    /* Bold weight */
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicBold[12].ttf') format('truetype');
+    font-weight: 700;
+    /* Bold weight (12 variant) */
+     font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicBold[20].ttf') format('truetype');
+    font-weight: 700;
+    /* Bold weight (20 variant) */
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicBold[28].ttf') format('truetype');
+    font-weight: 700;
+    /* Bold weight (28 variant) */
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicMedium.ttf') format('truetype');
+    font-weight: 600;
+    /* Medium weight */
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/ass/fonts/NeoSansArabic/NeoSansArabicMedium[95].ttf') format('truetype');
+    font-weight: 600;
+    /* Medium weight (95 variant) */
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicMedium[96].ttf') format('truetype');
+    font-weight: 600;
+    /* Medium weight (96 variant) */
+     font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicUltra.ttf') format('truetype');
+    font-weight: 800;
+    /* Ultra weight */
+     font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicUltra[9].ttf') format('truetype');
+    font-weight: 800;
+    /* Ultra weight (9 variant) */
+     font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicUltra[68].ttf') format('truetype');
+    font-weight: 800;
+    /* Ultra weight (68 variant) */
+    font-style: normal;
+    font-display: swap;
+}
+ 
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicBold.ttf') format('truetype');
+    font-weight: 900;
+    /* Ultra weight (68 variant) */
+     font-style: normal;
+    font-display: swap;
+}
+html, body {
+    direction: rtl;   /* This ensures the entire website uses RTL */
+    text-align: right; /* This aligns all text to the right */
+  }
+  
+  .v-container,
+  .v-row,
+  .v-col {
+    direction: rtl;   /* Make sure Vuetify containers and rows use RTL */
+  }
+  
+  .v-input,
+  .v-select,
+  .v-text-field {
+    direction: rtl;   /* Input fields also need to support RTL */
+    text-align: right; /* Align text inside form fields to the right */
+  }
